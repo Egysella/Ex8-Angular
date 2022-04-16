@@ -1,0 +1,13 @@
+<div>
+<mat-card> 
+<h2>Busca pelo CEP</h2>              
+<input placeholder="Digite aqui o cep" #cep>
+<button mat-stroked-button (click)="buscar(cep.value)">BUSCAR</button>
+<p>CEP: {{localidade?.cep}}</p>
+<p>Rua: {{localidade?.logradouro}}</p>
+<p>Bairro: {{localidade?.bairro}}</p>
+<p>Cidade: {{localidade?.localidade}}</p>
+<p>DDD: {{localidade?.ddd}}</p>
+<p>Uf: {{localidade?.uf}}</p>
+</mat-card>
+</div>

@@ -1,0 +1,28 @@
+div{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    height: 100vh;
+    display: flex;   
+    justify-content: center;   
+    align-items: center;   
+}
+mat-card{
+    background-color: lightcyan;
+    height: 55vh;
+    width: 55vh;
+}
+input{
+   border-radius: 5px;
+   height: 30px;
+   width: 200px;
+   background-color: rgb(207, 234, 244); 
+}
+p{ 
+    background-color:white;
+    height: 30px;
+    width: 350px; 
+    border-radius: 10px;
+    box-shadow: inset 0 0 1em rgb(255, 255, 255), 0 0 1em rgb(0, 119, 255);
+    font-family: serif;
+    font-size: 17px;
+}
